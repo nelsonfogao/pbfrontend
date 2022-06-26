@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter&display=swap" rel="stylesheet">
+
+        <title>Fun Tickets</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <section class="row" id="main_header">
+                    <h1 id="main_title">Fun Tickets</h1>
+                    <div class="columns left logo">
+                        <a href="#"><img id="logo_header" src="src/Logo - Fun Tickets PNG.png"></a>
+                    </div>
+                    <div class="columns middle" id="search">
+                        <div id="search_box">
+                            <i class="material-icons small icons_color search_icon">search</i>
+                            <input id="input_search" placeholder="Buscar evento, local, categoria" type="text">
+                        </div>
+                        <div id="secondary_search">
+                            <div class="icons">
+                                <i class="material-icons small icons_color">location_on</i>
+                                <input class="cidade" type="text" placeholder="Cidade">
+                            </div>
+                            <div class="icons">
+                                <i class="material-icons small icons_color">date_range</i>
+                                <input class="periodo" type="text" placeholder="Selecionar periodo">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="additional_infos" class="columns right">
+                        <div id="login">
+                            <a href="#"><i class="icons_left material-icons icons_color">person_outline</i></a>
+                            <p>Login</p>
+                        </div>
+                        <div id="ajuda">
+                            <a href="#"><i class="icons_left material-icons icons_color">help_outline</i></a>
+                            <p>Ajuda</p>
+                        </div>
+                    </div>
+                </section>
+                <nav id="navegation">
+                    <ul id="navegation_list">
+                        <li><a href="#">Peças</a></li>
+                        <li><a href="#">Jogos</a></li>
+                        <li><a href="#">Filmes</a></li>
+                        <li><a href="#">Shows</a></li>
+                        <li><a href="#">Festivais</a></li>
+                    </ul>
+                </nav>
+                <div id="banner">
+                    <a href="#">
+                    <img class="banner" src="src/8-xmen-movie-poster-design.jpg"></a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="mainBody">
+                <div class="carousel" id="carouselTop">
+                    <div class="divTitle">
+                        <a href="#">
+                            <p class="titles">Filmes</p>
+                        </a>
+                    </div>
+                    <div class="divCards">
+                        <div class="cards" >
+                            <img class="bannerCarousel" src="src/Top-Gun-Maverick.jpg">
+                        </div>
+                        <div class="cards">
+                            <img class="bannerCarousel" src="src/1130536.jpg">
+                        </div>
+                        <div class="cards">
+                            <img class="bannerCarousel" src="src/62555b25053c24491ebd346d-1125x750.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel" id="carouselBottom">
+                    <div class="divTitle">
+                        <a href="#">
+                            <p class="titles">Shows</p>
+                        </a>
+                    </div>
+                    <div class="divCards">
+                        <div class="cards">
+                            <img class="bannerCarousel" src="src/1366x982_2dc751ce45.jpg">
+                        </div>
+                        <div class="cards">
+                            <img class="bannerCarousel" src="src/Avril-Lavigne-lancou-o-seu-setimo-album-Love-Sux-k.jpg">
+                        </div>
+                        <div class="cards">
+                            <img class="bannerCarousel" src="src/destaque-920x625.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
